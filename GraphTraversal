@@ -18,7 +18,6 @@ class GraphTraversal
     
     public void bfs(int node,Queue<Integer> queue,List<List<Integer>> graph,boolean[] visited) {
 
-    visited[node] = true;
     System.out.println(node);
 
     for (int neighbor : graph.get(node)) {
